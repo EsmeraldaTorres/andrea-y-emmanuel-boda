@@ -248,7 +248,7 @@ button:focus {
 .foto {
   height: 100vh;
   align-items: center;
-  background-image: linear-gradient(rgb(5 7 12 / 32%), rgb(5 7 12 / 29%)),
+  background-image: linear-gradient(rgb(255 255 255 / 7%), rgb(5 7 12 / 0%)),
     url("./assets/img/pareja-2.jpg");
 
   padding: 0;
@@ -274,7 +274,8 @@ button:focus {
   margin-bottom: 2rem;
 }
 .cuenta {
-  color: rgb(168, 143, 105);
+  /* color: rgb(168, 143, 105); */
+  color: white;
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -535,7 +536,7 @@ hr {
       rgba(5, 7, 12, 0.274),
       rgba(5, 7, 12, 0.171)
     ),
-    url("./assets/img/bg-recepcion.png");
+    url("./assets/img/8ac7259dbd790dc768a216cc550b7ba7.jpg");
 }
 
 .window-152-recepcion {
@@ -606,6 +607,18 @@ hr {
   display: flex;
   flex-direction: column;
   background-color: whitesmoke;
+  height: min-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+.pase1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #e2baba;
   height: min-content;
   display: flex;
   justify-content: center;
@@ -687,7 +700,11 @@ hr {
   display: flex;
   color: black;
   height: 80vh;
-  background-image: url("./assets/img/pexels-cottonbro-studio-3171770\ \(1\).jpg");
+  background-image: linear-gradient(
+      rgba(5, 7, 12, 0.274),
+      rgba(5, 7, 12, 0.171)
+    ),
+    url("./assets/img/Captura\ de\ pantalla\ 2024-06-07\ a\ la\(s\)\ 11.56.55.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -707,7 +724,7 @@ h3 {
 .card {
   /* background-color: rgba(137, 43, 226, 0); */
   width: 100vw;
-  height: 50vh;
+  height: 60vh;
   border: none;
 }
 .card-img {
@@ -944,12 +961,13 @@ a:hover {
       rgba(5, 7, 12, 0.493),
       rgba(5, 7, 12, 0.335)
     ),
-    url("./assets/img/pexels-cottonbro-studio-3171770\ \(1\).jpg");
+    url("./assets/img/pexels-duartefotografia-19147674.jpg");
   height: 75vh;
   width: auto;
   background-color: rgba(0, 0, 0, 0.575);
   background-position: center;
   background-attachment: fixed;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;

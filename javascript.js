@@ -80,6 +80,7 @@ if (isIOS) {
     "initial";
   document.querySelector(".window-back-2").style.backgroundAttachment =
     "initial";
+  document.querySelector(".container2").style.backgroundAttachment = "initial";
   document.querySelector(".window-regalos").style.backgroundAttachment =
     "initial";
   document.querySelector(".window-back-3").style.backgroundAttachment =

@@ -187,8 +187,8 @@ button:focus {
   width: 100%;
   margin: 0;
   padding: 2rem 2rem;
-  background-image: linear-gradient(rgb(5 7 12 / 57%), rgb(5 7 12 / 62%)),
-    url("./assets/img/galeria-dinamica.png");
+  background-image: linear-gradient(rgb(5 7 12 / 36%), rgb(5 7 12 / 25%)),
+    url("./assets/img/Copia\ de\ Room.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -660,11 +660,15 @@ hr {
   height: 100vh;
   margin: 0;
   padding: 0;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
   background-image: linear-gradient(
       rgba(5, 7, 12, 0.274),
       rgba(5, 7, 12, 0.171)
     ),
-    url("./assets/img/jorge-aurora.png");
+    url("./assets/img/Room.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;

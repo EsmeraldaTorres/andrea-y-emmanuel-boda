@@ -669,7 +669,7 @@ hr {
       rgba(5, 7, 12, 0.171)
     ),
     url("./assets/img/Room.jpg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
 }

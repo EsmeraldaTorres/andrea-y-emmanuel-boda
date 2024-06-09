@@ -643,18 +643,14 @@ hr {
 }
 /* recepcion */
 .recepcion-img {
+  overflow: hidden;
   height: max-content;
-  padding-bottom: 4rem;
   margin: 0;
-  /* padding: 0; */
-  background-image: linear-gradient(
-      rgba(5, 7, 12, 0.274),
-      rgba(5, 7, 12, 0.171)
-    ),
-    url("./assets/img/pexels-cristina-de-luis-5588597\ \(1\).jpg");
+  padding: 0;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
+  flex-direction: column;
 }
 .filtro-img {
   height: 100vh;

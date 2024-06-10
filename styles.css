@@ -2,7 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Sree Krushnadevaraya", serif;
+  /* font-family: "Sree Krushnadevaraya", serif; */
+  font-family: "EB Garamond", serif;
 }
 .h-100vh {
   height: 100vh;
@@ -655,19 +656,14 @@ hr {
 .filtro-img {
   height: 100vh;
   margin: 0;
-  padding: 0;
+  padding: 0 1rem 4rem;
   display: flex;
   align-items: center;
-
   flex-direction: column;
-  background-image: linear-gradient(
-      rgba(5, 7, 12, 0.274),
-      rgba(5, 7, 12, 0.171)
-    ),
-    url("./assets/img/Room.jpg");
+  background-image: url("./assets/img/Diseño sin título (9).png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
 }
 .recepcion-information {
   padding-top: 3rem;

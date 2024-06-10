@@ -656,7 +656,7 @@ hr {
 .filtro-img {
   height: 100vh;
   margin: 0;
-  padding: 0 1rem 4rem;
+  padding: 0 1rem 8rem;
   display: flex;
   align-items: center;
   flex-direction: column;

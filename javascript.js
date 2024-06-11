@@ -2,8 +2,6 @@ const audio = document.getElementById("audio");
 const playPause = document.getElementById("play");
 
 function abrir() {
-  // document.getElementById("parent-div").classList.remove("test-class");
-  // document.getElementById("xv").classList.add("animate__fadeInUp");
   document.getElementById("parent-div").classList.add("animate__slideOutUp");
   document.getElementById("logo").classList.remove("animate__infinite");
   document.getElementById("pulse").classList.add("hide");
